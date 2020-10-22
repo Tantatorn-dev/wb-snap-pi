@@ -1,3 +1,5 @@
-from modules.image import undistort
+from modules.image import Camera
 
-undistort()
+camera = Camera()
+
+camera.undistort()
